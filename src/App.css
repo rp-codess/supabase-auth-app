@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+/* Add this to your App.css */
+.dashboard-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-info, .actions, .usage-stats, .security-section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.profile-info h2, .actions h2, .usage-stats h2, .security-section h2 {
+  color: #444;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.sign-out-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.sign-out-btn:hover {
+  background-color: #c82333;
+}
+
+.profile-info p {
+  margin: 8px 0;
+}
+
+.profile-info strong {
+  display: inline-block;
+  width: 120px;
+  font-weight: 600;
+}.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.secondary-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.secondary-btn:hover {
+  background-color: #5a6268;
+}
+
+.secondary-btn:disabled {
+  background-color: #a0a0a0;
+}
